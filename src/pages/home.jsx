@@ -4,6 +4,12 @@ import { fetchTrendingAnime, fetchPopularAnime, fetchTopAirAnime} from '../hooks
 import CardGrid from '../components/cards/cardItem';
 import HomeSideBar from '../components/home/topAir';
 
+<div class="row">
+  <div class="Home"></div>
+  <div class="Manga"></div>
+  <div class="novel"></div>
+</div>
+
 const Home = () => {
   window.scrollTo(0, 0);
   const [activeTab, setActiveTab] = useState('TRENDING');
