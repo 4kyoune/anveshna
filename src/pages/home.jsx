@@ -3,6 +3,7 @@ import Slideshow from '../components/home/slideshow';
 import { fetchTrendingAnime, fetchPopularAnime, fetchTopAirAnime} from '../hooks/useAPI';
 import CardGrid from '../components/cards/cardItem';
 import HomeSideBar from '../components/home/topAir';
+import Menu from "@/components/Menu/Menu";
 
 const Home = () => {
   window.scrollTo(0, 0);
